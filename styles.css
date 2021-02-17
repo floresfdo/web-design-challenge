@@ -1,9 +1,18 @@
 
+/* Images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  height: 50px;
 }
 
 /* Links inside the navbar */
@@ -29,17 +38,15 @@
   outline: none;
   color: black;
   padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  margin: 0;
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color:#ddd;
 }
 
-/* Dropdown content (hidden by default) */
+/* Dropdown content */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -69,25 +76,25 @@
   display: block;
 }
 
-/* Styling the header, giving it a height, a background color, and some top padding */
+/* Styling the header */
 .header {
-  height: 50px;
+  height: 40px;
   padding-top: 0px;
   background: #21ada8;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
 }
 
-/* Giving our navbar some padding and a background color */
+/* Navbar */
 .navbar {
-  padding: 8px;
+  padding: 3px;
   background: #fff;
   direction: rtl;
 }
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/* Navbar lis */
 .navbar li {
   display: inline-block;
   padding: 3px;
@@ -98,31 +105,11 @@ h1 {
   border-radius: 3px;
 }
 
-/* CODE BELOW IS FROM CLASS EXERCISE */
-
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Giving the body the specified background color */
 body {
   background: #f1f1f1;
 }
 
-
-
 h3 {
   font-size: 30px;
-}
-
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 10px;
-  margin: 0;
-  color: #000;
-  text-align: left;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
 }
